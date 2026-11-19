@@ -1,0 +1,15 @@
+# MoonGride — Git Ignore
+
+# Exclude caches and temporary files
+storage/cache/
+**/storage/cache/
+scratch_bench.php
+**/scratch_bench.php
+
+# Logs and OS temporary files
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
